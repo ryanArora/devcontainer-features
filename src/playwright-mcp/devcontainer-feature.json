@@ -1,0 +1,15 @@
+{
+  "id": "playwright-mcp",
+  "version": "0.1.0",
+  "name": "Playwright MCP",
+  "description": "Playwright MCP",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils:2",
+    "ghcr.io/devcontainers/features/node:1"
+  ],
+  "postStartCommand": "nohup bash -c \"npx -y supergateway --stdio 'npx -y @executeautomation/playwright-mcp-server' &\""
+}
