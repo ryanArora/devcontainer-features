@@ -11,5 +11,5 @@
     "ghcr.io/devcontainers/features/common-utils:2",
     "ghcr.io/devcontainers/features/node:1"
   ],
-  "postStartComand": "nohup bash -c \"npx -y supergateway --stdio 'npx -y @executeautomation/playwright-mcp-server' &\""
+  "postStartCommand": "nohup bash -c \"npx -y supergateway --stdio 'npx -y @executeautomation/playwright-mcp-server' &\""
 }
