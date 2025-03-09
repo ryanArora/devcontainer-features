@@ -1,3 +1,3 @@
 #!/bin/bash
 set -e
-npx playwright install --with-deps chromium
+npx playwright install --with-deps
